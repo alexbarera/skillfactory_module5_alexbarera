@@ -1,0 +1,36 @@
+body {
+	display: flex;
+}
+
+.wrapper {
+	display: flex;
+	flex-direction: column;
+	font-family: sans-serif;
+}
+
+.placeholder {
+	font-weight: bold;
+	font-size: 25px;
+}
+
+.input {
+	margin-top: 10px; 
+	width: 500px;
+}
+
+.btn {
+	background-color: #ff2d2d;
+	box-sizing: border-box;
+	height: 50px;
+	width: 200px; 
+	margin: 10px;
+	border-radius: 5px;
+}
+
+.result {
+	font-size: 20px;
+	font-weight: normal;
+	letter-spacing: 1px;
+	font-style: italic;
+	margin-top: 0.7em;
+}
